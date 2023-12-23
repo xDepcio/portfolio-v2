@@ -114,7 +114,7 @@ export default function Cat() {
 
     return (
         <>
-            <img onMouseMove={handleMouseMove} onClick={handleCatClick} ref={catImgRef} id="cat-img" loading="lazy" className="absolute left-full bottom-0 [image-rendering:pixelated]" src="/cat/tile048.png" alt="" width={96} height={96} />
+            <img onMouseMove={handleMouseMove} onClick={handleCatClick} ref={catImgRef} id="cat-img" loading="lazy" className="absolute left-[110%] bottom-0 [image-rendering:pixelated]" src="/cat/tile048.png" alt="" width={96} height={96} />
         </>
     )
 }
