@@ -212,7 +212,56 @@ export default function CvPage() {
                         <HiChevronDown />
                     </div>
                     <div className="flex items-center justify-center">
-                        <ProjectsCarousel />
+                        <ProjectsCarousel projects={[
+                            {
+                                name: "Minecraft server website",
+                                technologies: ["React", "Redux", "JavaScript", "Express", "Sequelize", "StripeAPI"],
+                                url: "https://mc-website-full.vercel.app/",
+                                image: "/mc-server-tiles-16-9-v2.png"
+                            },
+                            {
+                                name: "Eccomerce website",
+                                technologies: ["React", "Redux", "JavaScript", "Express", "Sequelize", "StripeAPI"],
+                                url: "https://github.com/xDepcio/eccomerce_store",
+                                image: "/ecc-tiles-16-9-v2.png"
+                            },
+                            {
+                                name: "Old portfolio",
+                                technologies: ["Next.js", "Tailwind", "Typescript"],
+                                url: "/",
+                                image: "/portfolio-tiles-16-9.png"
+                            },
+                            {
+                                name: "Desktop Flashcards",
+                                technologies: ["Python", "Qt"],
+                                url: "https://github.com/xDepcio/projekt-studia-flashcards",
+                                image: "/flashcards-tiles-16-9.png"
+                            },
+                            {
+                                name: "Mobile app",
+                                technologies: ["React Native", "Express", "Sequelize"],
+                                url: "https://github.com/xDepcio/native-app-nfc",
+                                image: "/pzps-tiles-16-9.png"
+                            },
+                            {
+                                name: "Desktop chess",
+                                technologies: ["C++", "Qt"],
+                                url: "https://github.com/xDepcio/chess-cpp",
+                                image: "/chess-tiles-16-9.png"
+                            },
+                            {
+                                name: "x86, RISC-V assembly",
+                                technologies: [],
+                                url: "https://github.com/xDepcio/x86-assembly",
+                                image: "/arko-tiles-16-9.png"
+                            },
+                            {
+                                name: "And many more :)",
+                                technologies: ["Next.js", "Express", "Prisma", "Python", "Flask", "Golang", "Fiber", "Sequelize", "React", "Redux", "Postgres", "TypeScript", "JavaScript", "TailwindCSS", "NodeJS", "Python", "C++", "Qt", "React Native", "Socket.IO", "C"],
+                                url: "https://github.com/xDepcio",
+                                image: "/strapup-main-page-cut.webp"
+                            }
+                        ]} />
                     </div>
                 </section>
                 <section className="text-slate-100 mt-24 mb-64">
