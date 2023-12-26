@@ -1,4 +1,5 @@
 import CodingCat from "@/components/CodingCat";
+import { ProjectsCarousel } from "@/components/ProjectsCarousel";
 import { Button } from "@/components/ui/button";
 import { ProximaSoft } from "@/lib/fonts";
 import { cn } from "@/lib/utils";
@@ -196,6 +197,22 @@ export default function CvPage() {
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </section>
+                <section className="mt-16 mb-16">
+                    <div className="flex items-center justify-center gap-4">
+                        <div className="bg-slate-300 w-2 aspect-square rounded-full"></div>
+                        <div className="bg-slate-300 w-2 aspect-square rounded-full"></div>
+                        <div className="bg-slate-300 w-2 aspect-square rounded-full"></div>
+                    </div>
+                </section>
+                <section>
+                    <div className="flex items-center justify-start gap-2 text-muted-foreground font-medium mb-4">
+                        <h3 className="">Other projects</h3>
+                        <HiChevronDown />
+                    </div>
+                    <div className="flex items-center justify-center">
+                        <ProjectsCarousel />
                     </div>
                 </section>
                 <section className="text-slate-100 mt-24 mb-64">
