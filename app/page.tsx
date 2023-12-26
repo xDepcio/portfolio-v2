@@ -31,7 +31,7 @@ export default function CvPage() {
                         <Image alt="profile-img" className="opacity-0" src="/bongo-cat.png" width={1300} height={980} />
                     </div>
                     <div>
-                        <p className="text-lg text-muted-foreground font-medium">Hi! I'm</p>
+                        <p className="text-lg text-muted-foreground font-medium">{`Hi! I'm`}</p>
                         <h1 className={cn(ProximaSoft.className, "text-6xl lg:text-7xl lg:whitespace-nowrap font-bold bg-gradient-to-br from-sky-500 to-sky-800  text-transparent bg-clip-text")}>Aleksander Drwal</h1>
                         <div className="flex items-start mt-6 gap-10">
                             <div className="text-slate-100 flex items-center justify-center gap-3">
@@ -194,7 +194,7 @@ export default function CvPage() {
                                 <div>
                                     <h4 className="text-xl font-medium mt-4">Boss Monsters Tabletop</h4>
                                     <p className="text-sm text-muted-foreground">React, TypeScript, NodeJS, TailwindCSS, Socket.IO, Express</p>
-                                    <p className="mt-6">Recreation of Boss Monsters - a tabletop RPG, as a multiplayer game on the web. It's one of my older projects, which underwent few cycles of sudden gain and lost of interest in it. (thus TypeScript and Tailwind added half way through). I decided to include It here, as It shows my progress in terms of programming in general and the ability to use the knowledge acquired from other projects.</p>
+                                    <p className="mt-6">{`Recreation of Boss Monsters - a tabletop RPG, as a multiplayer game on the web. It's one of my older projects, which underwent few cycles of sudden gain and lost of interest in it. (thus TypeScript and Tailwind added half way through). I decided to include It here, as It shows my progress in terms of programming in general and the ability to use the knowledge acquired from other projects.`}</p>
                                 </div>
                                 <div className="flex gap-4 items-center justify-start mt-10">
                                     <Button >

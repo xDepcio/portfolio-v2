@@ -11,7 +11,7 @@ export default function CodingCat() {
         const ID = "bongo-cat";
         const s = (selector: string) => `#${ID} ${selector}`;
         const notes = document.querySelectorAll(".note");
-
+        // @ts-expect-error
         for (let note of notes) {
             note?.parentElement?.appendChild(note.cloneNode(true));
             note?.parentElement?.appendChild(note.cloneNode(true));
@@ -109,6 +109,7 @@ export default function CodingCat() {
                     rotation: dir(gsap.utils.random(20, 30, 1)),
                     x: dir(gsap.utils.random(40, 60, 1)),
                     y: gsap.utils.random(-200, -220, 1),
+                    // @ts-expect-error
                     onComplete: () => animateNotes(els),
                 }
             );
