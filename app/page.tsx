@@ -8,6 +8,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { FiMail } from "react-icons/fi";
 import { HiChevronDown } from "react-icons/hi";
+import { LuDownload } from "react-icons/lu";
+import { PiDownloadSimpleBold } from "react-icons/pi";
+
 
 export default function CvPage() {
     return (
@@ -91,6 +94,12 @@ export default function CvPage() {
                                     <p>Contact me</p>
                                     <FiMail className='text-2xl' />
                                 </a>
+                            </Button>
+                            <Button className="ml-auto bg-transparent border-2 border-slate-900 text-muted-foreground">
+                                <Link href={'https://drive.google.com/uc?id=1OaXLZyvpu6QoGSOXykGWvv1HgZnuKSor&export=download'} className="flex items-center justify-center gap-2">
+                                    <p>Download CV</p>
+                                    <PiDownloadSimpleBold />
+                                </Link>
                             </Button>
                         </div>
                     </div>
