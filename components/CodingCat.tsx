@@ -186,7 +186,7 @@ export default function CodingCat() {
                     <line x1="25.3" y1="158.5" x2="783.2" y2="293" fill="none" stroke="#8d00fc" stroke-miterlimit="10" stroke-width="4"></line>
                     <line x1="783.2" y1="293" x2="25.3" y2="158.5" fill="none"></line>
                 </g>
-                <polygon className="laptop-base" points="103.2 263.6 258.9 219.3 636.5 294.4 452.1 339 103.2 263.6"></polygon>
+                {/* <polygon className="laptop-base" points="103.2 263.6 258.9 219.3 636.5 294.4 452.1 339 103.2 263.6"></polygon> */}
                 <g className="laptop-keyboard">
                     <polygon points="369.6 265.6 255.3 244.3 255.5 243.5 264.7 241.9 380.9 262.3 380.8 263.1 369.6 265.6"></polygon>
                     <polygon points="235.9 256.4 219.8 253.2 219.9 252.5 228.7 251 245.3 253.4 245.1 254.2 235.9 256.4"></polygon>
@@ -243,7 +243,7 @@ export default function CodingCat() {
                     <line x2="213.8" y2="187.9" x1="251.1" y1="194.2"></line>
                     <line x2="180.8" y2="182.3" x1="202.7" y1="186"></line>
                 </g>
-                <polygon className="laptop-cover" points="103.2 263.6 452.1 339 360.8 12.4 2 2 103.2 263.6"></polygon>
+                {/* <polygon className="laptop-cover" points="103.2 263.6 452.1 339 360.8 12.4 2 2 103.2 263.6"></polygon> */}
                 <g className="paw paw-left">
                     <g className="up">
                         <path d="M586.6,208.8c-.6-2.3-4.2-15.6-17.2-22.2-2.7-1.3-12.8-6.4-23.6-1.8s-14.6,16.5-14.8,18.4c-1.2,9-.7,18.4,2.4,26.1,2.4,6,7.5,17.2,9.7,20.2"></path>
