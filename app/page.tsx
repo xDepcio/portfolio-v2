@@ -1,4 +1,5 @@
 import CodingCat from "@/components/CodingCat";
+import Footer from "@/components/Footer";
 import { ProjectsCarousel } from "@/components/ProjectsCarousel";
 import { Button } from "@/components/ui/button";
 import { ProximaSoft } from "@/lib/fonts";
@@ -15,7 +16,7 @@ import { PiDownloadSimpleBold } from "react-icons/pi";
 export default function CvPage() {
     return (
         <div className="">
-            <div className="p-8 lg:p-0 lg:w-[1152px] m-auto relative">
+            <div className="p-6 lg:p-0 lg:w-[1152px] m-auto relative">
                 <div className="top-[880px] [background-size:250%] h-[1400px] absolute w-full md:h-[1070px] lg:h-[700px] sm:h-[1500px] sm:top-[700px] left-0 sm:[background-size:200%] md:[background-size:100%] -z-10 md:top-[770px] lg:top-[600px] opacity-30" style={{ backgroundImage: `url(/hero-geo.svg)` }}>
                     <div className="innger-bg-geo "></div>
                 </div>
@@ -273,9 +274,7 @@ export default function CvPage() {
                         ]} />
                     </div>
                 </section>
-                <section className="text-slate-100 mt-16 mb-24">
-                    <p className="text-muted-foreground text-sm text-center">Created by <Link className="underline inline" href={"https://github.com/xDepcio"}>Aleksander Drwal</Link>. View code <Link href={'https://github.com/xDepcio/portfolio-v2'} className="underline inline">here</Link>.</p>
-                </section>
+                <Footer />
             </div>
         </div>
     )

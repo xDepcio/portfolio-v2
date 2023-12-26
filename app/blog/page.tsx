@@ -1,11 +1,12 @@
 import ArticleCard from "@/components/ArticleCard";
 import CodingCat from "@/components/CodingCat";
+import Footer from "@/components/Footer";
 import Image from "next/image";
 
 export default function BlogPage() {
     return (
         <>
-            <div className="text-slate-50 max-w-screen-lg max-w-[900px] mx-auto mt-16 rounded-2xl border-slate-900 min-h-[80vh] mb-32">
+            <div className="text-slate-50 p-4 md:p-0 max-w-[900px] mx-auto mt-16 rounded-2xl border-slate-900 min-h-[80vh] mb-32">
                 <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">Blog</h1>
                 <p className="text-muted-foreground mt-4">{`I'll write something interesting here one day.`}</p>
                 {/* <p className="text-muted-foreground">Meanwhile check out some other wothwhile articles.</p> */}
@@ -22,6 +23,7 @@ export default function BlogPage() {
                     <ArticleCard />
                 </div> */}
             </div>
+            <Footer />
         </>
     )
 }
