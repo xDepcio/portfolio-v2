@@ -154,6 +154,9 @@ const CarouselContent = React.forwardRef<
   const { carouselRef, orientation } = useCarousel()
 
   React.useEffect(() => {
+    // console.log("Effect viewpoert", window.innerWidth);
+    if (window.innerWidth > 1024) return
+
     const TRANSFORM_HINT = -200
 
     const interval = setInterval(() => {
