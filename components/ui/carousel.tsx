@@ -153,9 +153,46 @@ const CarouselContent = React.forwardRef<
 >(({ className, ...props }, ref) => {
   const { carouselRef, orientation } = useCarousel()
 
+  React.useEffect(() => {
+    const TRANSFORM_HINT = -200
+
+    const interval = setInterval(() => {
+      const slider = document.getElementById("carousel-slider")
+      if (!slider) return
+
+      slider.style.transitionDuration = '0.4s'
+      slider.style.transitionTimingFunction = 'ease'
+      slider.style.transform = `translate3d(${TRANSFORM_HINT}px, 0, 0)`
+      setTimeout(() => {
+        slider.style.transform = `translate3d(0px, 0, 0)`
+      }, 3000)
+    }, 5000)
+
+    const intervalClearHint = setInterval(() => {
+      const slider = document.getElementById("carousel-slider")
+      if (!slider) return
+
+      const currTransformX = slider.style.transform.replace(/(.*\()|(px,.*)/g, '')
+      const transformXNum = Number(currTransformX)
+      if (transformXNum < TRANSFORM_HINT) {
+        slider.style.transitionDuration = 'unset'
+        slider.style.transitionTimingFunction = 'unset'
+        clearInterval(interval)
+        clearInterval(intervalClearHint)
+      }
+    }, 100)
+
+    return () => {
+      clearInterval(interval)
+      clearInterval(intervalClearHint)
+    }
+  }, [])
+
+
   return (
     <div ref={carouselRef} className="overflow-hidden">
       <div
+        id="carousel-slider"
         ref={ref}
         className={cn(
           "flex",

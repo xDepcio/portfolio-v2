@@ -15,12 +15,12 @@ import { PiDownloadSimpleBold } from "react-icons/pi";
 export default function CvPage() {
     return (
         <div className="">
-            <div className="w-[1152px] m-auto relative">
-                <div className="absolute w-full h-[700px] -z-10 top-[600px] opacity-30" style={{ backgroundImage: `url(/hero-geo.svg)` }}>
+            <div className="p-8 lg:p-0 lg:w-[1152px] m-auto relative">
+                <div className="top-[880px] [background-size:250%] h-[1400px] absolute w-full md:h-[1070px] lg:h-[700px] sm:h-[1500px] sm:top-[700px] left-0 sm:[background-size:200%] md:[background-size:100%] -z-10 md:top-[770px] lg:top-[600px] opacity-30" style={{ backgroundImage: `url(/hero-geo.svg)` }}>
                     <div className="innger-bg-geo "></div>
                 </div>
-                <section className="flex justify-center items-center mb-12 gap-8 mt-12">
-                    <div className="flex justify-center items-center relative">
+                <section className="flex-col lg:flex-row flex justify-center items-center mb-12 gap-8 mt-12">
+                    <div className="hidden lg:flex justify-center items-center relative">
                         {/* <div className="w-[1200px] h-[600px] scale-[0.6] -left-[230px] -top-[60px] absolute" style={{ backgroundImage: `url(/test-2.svg)` }}>
 
                         </div> */}
@@ -32,7 +32,7 @@ export default function CvPage() {
                     </div>
                     <div>
                         <p className="text-lg text-muted-foreground font-medium">Hi! I'm</p>
-                        <h1 className={cn(ProximaSoft.className, "text-7xl whitespace-nowrap font-bold bg-gradient-to-br from-sky-500 to-sky-800  text-transparent bg-clip-text")}>Aleksander Drwal</h1>
+                        <h1 className={cn(ProximaSoft.className, "text-6xl lg:text-7xl lg:whitespace-nowrap font-bold bg-gradient-to-br from-sky-500 to-sky-800  text-transparent bg-clip-text")}>Aleksander Drwal</h1>
                         <div className="flex items-start mt-6 gap-10">
                             <div className="text-slate-100 flex items-center justify-center gap-3">
                                 <Image src={"/code-svg.svg"} width={40} height={40} alt={'web-svg'} />
@@ -45,7 +45,7 @@ export default function CvPage() {
                         </div>
                     </div>
                 </section>
-                <section className="grid grid-cols-2 gap-24">
+                <section className="lg:grid flex flex-col-reverse lg:grid-cols-2 lg:gap-24 gap-16">
                     <div className="text-slate-50">
                         <p className="text-amber-500 mb-6 text-xs text-center font-bold">education</p>
                         <div className="border border-slate-900 rounded-lg p-4 flex flex-col gap-10">
@@ -82,7 +82,7 @@ export default function CvPage() {
                             <h2 className="mt-4 text-3xl font-medium mb-4">Short bio about me</h2>
                             <p className="">I study 2nd year of computer science. In my free time and in between exams I code for fun, mostly in TypeScript. I like working in new projects with technologies I never used before and am always keen to learn new language/framework.</p>
                         </div>
-                        <div className="flex items-center justify-start gap-4">
+                        <div className="grid grid-cols-2 mt-4 lg:mt-0 sm:flex sm:items-center sm:justify-start gap-4">
                             <Button>
                                 <Link className="flex items-center justify-center gap-2" href={'https://github.com/xDepcio'}>
                                     <p>View Github</p>
@@ -95,7 +95,7 @@ export default function CvPage() {
                                     <FiMail className='text-2xl' />
                                 </a>
                             </Button>
-                            <Button className="ml-auto bg-transparent border-2 border-slate-900 text-muted-foreground">
+                            <Button className="ml-0 sm:ml-auto bg-transparent border-2 border-slate-900 text-muted-foreground">
                                 <Link href={'https://drive.google.com/uc?id=1OaXLZyvpu6QoGSOXykGWvv1HgZnuKSor&export=download'} className="flex items-center justify-center gap-2">
                                     <p>Download CV</p>
                                     <PiDownloadSimpleBold />
@@ -106,7 +106,7 @@ export default function CvPage() {
                 </section>
                 <section className="text-slate-100 mt-24">
                     <h3 className="text-center font-medium text-muted-foreground">My skills</h3>
-                    <div className="flex gap-20 px-20 py-10 flex-wrap justify-center items-center">
+                    <div className="flex px-0 gap-[3.4rem] sm:gap-20 sm:px-20 py-10 flex-wrap justify-center items-center">
                         <div className="bg-[#090F20] rounded-full w-32 aspect-square flex justify-center flex-col items-center gap-2 shadow-md">
                             <p className="font-semibold text-muted-foreground text-sm">React</p>
                             <Image src={'/react.svg'} alt="skill image" width={50} height={50} />
@@ -155,7 +155,7 @@ export default function CvPage() {
                         <HiChevronDown />
                     </div>
                     <div className="mt-8 flex flex-col gap-16">
-                        <div className="flex gap-10">
+                        <div className="lg:flex-row items-center lg:items-start flex-col flex gap-10">
                             <Image alt="project-1-image" src={"/strapup-main-page-cut.webp"} width={500} height={500}
                                 className="shadow-md rounded-lg"
                             />
@@ -186,7 +186,7 @@ export default function CvPage() {
                             <div className="bg-slate-300 w-2 aspect-square rounded-full"></div>
                             <div className="bg-slate-300 w-2 aspect-square rounded-full"></div>
                         </div>
-                        <div className="flex gap-10 flex-row-reverse">
+                        <div className="items-center lg:items-start flex-col flex gap-10 lg:flex-row-reverse">
                             <Image alt="project-1-image" src={"/boss-monster.webp"} width={500} height={500}
                                 className="shadow-md rounded-lg border-y-[20px] border-red-950/40"
                             />
