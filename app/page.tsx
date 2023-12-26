@@ -1,3 +1,4 @@
+import CodingCat from "@/components/CodingCat";
 import { Button } from "@/components/ui/button";
 import { ProximaSoft } from "@/lib/fonts";
 import { cn } from "@/lib/utils";
@@ -17,6 +18,10 @@ export default function CvPage() {
                 <section className="flex justify-center items-center mb-12 gap-8 mt-12">
                     <div className="flex justify-center items-center relative">
                         <div className="w-[1200px] h-[600px] scale-[0.6] -left-[230px] -top-[60px] absolute" style={{ backgroundImage: `url(/test-2.svg)` }}>
+
+                        </div>
+                        <div className="absolute -top-[84px] left-[510px]">
+                            <CodingCat />
 
                         </div>
                         <Image alt="profile-img" className="opacity-0" src="/bongo-cat.png" width={1300} height={980} />
