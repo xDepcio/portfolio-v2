@@ -273,8 +273,8 @@ export default function CvPage() {
                         ]} />
                     </div>
                 </section>
-                <section className="text-slate-100 mt-24 mb-64">
-                    <p className="text-muted-foreground text-sm text-center">CV designed and created in React by me :). View code <Link href={'https://github.com/xDepcio/cv-react-to-pdf'} className="underline inline">here</Link>.</p>
+                <section className="text-slate-100 mt-16 mb-24">
+                    <p className="text-muted-foreground text-sm text-center">Created by <Link className="underline inline" href={"https://github.com/xDepcio"}>Aleksander Drwal</Link>. View code <Link href={'https://github.com/xDepcio/portfolio-v2'} className="underline inline">here</Link>.</p>
                 </section>
             </div>
         </div>
