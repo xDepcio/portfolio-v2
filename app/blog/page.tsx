@@ -1,7 +1,13 @@
 import ArticleCard from "@/components/ArticleCard";
 import CodingCat from "@/components/CodingCat";
 import Footer from "@/components/Footer";
+import { Metadata } from "next";
 import Image from "next/image";
+
+export const metadata: Metadata = {
+    title: 'Aleksander Drwal | Blog',
+    description: `My blog where something interesing may appear one day...`,
+}
 
 export default function BlogPage() {
     return (
