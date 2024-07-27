@@ -13,16 +13,10 @@ export default function CvPage() {
     return (
         <div className="">
             <div className="max-w-[1152px] m-auto relative">
-                <div className="absolute w-full h-[700px] -z-10 top-[460px] opacity-30" style={{ backgroundImage: `url(/hero-geo.svg)` }}>
+                <div className="absolute w-full h-[700px] -z-10 top-[450px] opacity-30" style={{ backgroundImage: `url(/hero-geo.svg)` }}>
                     <div className="innger-bg-geo "></div>
                 </div>
                 <section className="flex justify-center items-center mb-16 gap-8 mt-8">
-                    {/* <div className="flex justify-center items-center relative">
-                        <div className="w-[1200px] h-[600px] scale-[0.6] -left-[230px] -top-[60px] absolute" style={{ backgroundImage: `url(/test-2.svg)` }}>
-
-                        </div>
-                        <Image alt="profile-img" className="opacity-0" src="/bongo-cat.png" width={1300} height={980} />
-                    </div> */}
                     <div>
                         <p className="text-lg text-muted-foreground font-medium">{`Hi! I'm`}</p>
                         <h1 className={cn(ProximaSoft.className, "text-7xl whitespace-nowrap font-bold bg-gradient-to-br from-sky-500 to-sky-800  text-transparent bg-clip-text")}>Aleksander Drwal</h1>
@@ -51,7 +45,7 @@ export default function CvPage() {
                             <div className="grid grid-cols-[20%_80%]">
                                 <div className="relative">
                                     <div className="absolute w-4 h-4 rounded-full bg-slate-300 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2"></div>
-                                    <div className="absolute w-1 h-20 rounded-full bg-slate-300 left-1/2 top-full -translate-x-1/2 -translate-y-1/2"></div>
+                                    <div className="absolute w-1 h-24 rounded-full bg-slate-300 left-1/2 top-full -translate-x-1/2 -translate-y-1/2"></div>
                                 </div>
                                 <div>
                                     <p className="mb-2">Frontend Developer</p>
@@ -63,7 +57,7 @@ export default function CvPage() {
                             <div className="grid grid-cols-[20%_80%]">
                                 <div className="relative">
                                     <div className="absolute w-4 h-4 rounded-full bg-slate-300 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2"></div>
-                                    <div className="absolute w-1 h-20 rounded-full bg-slate-300 left-1/2 bottom-full -translate-x-1/2 translate-y-1/2"></div>
+                                    <div className="absolute w-1 h-24 rounded-full bg-slate-300 left-1/2 bottom-full -translate-x-1/2 translate-y-1/2"></div>
                                 </div>
                                 <div>
                                     <p className="mb-2">Software Developer</p>
@@ -168,9 +162,6 @@ export default function CvPage() {
                     </div>
                     <div className="mt-4 grid grid-cols-2 gap-8">
                         <div className="flex gap-10">
-                            {/* <Image alt="project-1-image" src={"/strapup-main-page-cut.webp"} width={500} height={500}
-                                className="shadow-md rounded-lg"
-                            /> */}
                             <div className="flex flex-col justify-between">
                                 <div>
                                     <h4 className="text-xl font-medium mt-4">Strapup - a template CLI</h4>
@@ -193,15 +184,7 @@ export default function CvPage() {
                                 </div>
                             </div>
                         </div>
-                        {/* <div className="flex items-center justify-center gap-4">
-                            <div className="bg-slate-300 w-2 aspect-square rounded-full"></div>
-                            <div className="bg-slate-300 w-2 aspect-square rounded-full"></div>
-                            <div className="bg-slate-300 w-2 aspect-square rounded-full"></div>
-                        </div> */}
                         <div className="flex gap-10 flex-row-reverse">
-                            {/* <Image alt="project-1-image" src={"/boss-monster.webp"} width={500} height={500}
-                                className="shadow-md rounded-lg border-y-[20px] border-red-950/40"
-                            /> */}
                             <div className="flex flex-col justify-between">
                                 <div>
                                     <h4 className="text-xl font-medium mt-4">Terminal Copilot</h4>
