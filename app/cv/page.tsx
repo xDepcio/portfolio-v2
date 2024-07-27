@@ -166,18 +166,18 @@ export default function CvPage() {
                         <h3 className="">Recent projects</h3>
                         <HiChevronDown />
                     </div>
-                    <div className="mt-8 flex flex-col gap-16">
+                    <div className="mt-4 grid grid-cols-2 gap-8">
                         <div className="flex gap-10">
-                            <Image alt="project-1-image" src={"/strapup-main-page-cut.webp"} width={500} height={500}
+                            {/* <Image alt="project-1-image" src={"/strapup-main-page-cut.webp"} width={500} height={500}
                                 className="shadow-md rounded-lg"
-                            />
-                            <div className="">
+                            /> */}
+                            <div className="flex flex-col justify-between">
                                 <div>
                                     <h4 className="text-xl font-medium mt-4">Strapup - a template CLI</h4>
                                     <p className="text-sm text-muted-foreground">React, TypeScript, Next.js, NodeJS, TailwindCSS, CLI</p>
                                     <p className="mt-6">A project consisting of Strapup npm package - a CLI tool and a website for its doucmentation. It allows to quickly bootstrap any project by running custom scripts and pasting custom templates all from within interactive CLI.</p>
                                 </div>
-                                <div className="flex gap-4 items-center justify-start mt-10">
+                                <div className="flex gap-4 items-center justify-start mt-8">
                                     <Button >
                                         <Link href={'https://github.com/xDepcio/strapup'} className="flex items-center justify-center gap-2">
                                             <p>See code</p>
@@ -193,22 +193,22 @@ export default function CvPage() {
                                 </div>
                             </div>
                         </div>
-                        <div className="flex items-center justify-center gap-4">
+                        {/* <div className="flex items-center justify-center gap-4">
                             <div className="bg-slate-300 w-2 aspect-square rounded-full"></div>
                             <div className="bg-slate-300 w-2 aspect-square rounded-full"></div>
                             <div className="bg-slate-300 w-2 aspect-square rounded-full"></div>
-                        </div>
+                        </div> */}
                         <div className="flex gap-10 flex-row-reverse">
-                            <Image alt="project-1-image" src={"/boss-monster.webp"} width={500} height={500}
+                            {/* <Image alt="project-1-image" src={"/boss-monster.webp"} width={500} height={500}
                                 className="shadow-md rounded-lg border-y-[20px] border-red-950/40"
-                            />
-                            <div className="">
+                            /> */}
+                            <div className="flex flex-col justify-between">
                                 <div>
-                                    <h4 className="text-xl font-medium mt-4">Boss Monsters Tabletop</h4>
-                                    <p className="text-sm text-muted-foreground">React, TypeScript, NodeJS, TailwindCSS, Socket.IO, Express</p>
-                                    <p className="mt-6">{`Recreation of Boss Monsters - a tabletop RPG, as a multiplayer game on the web. It's one of my older projects, which underwent few cycles of sudden gain and lost of interest in it. (thus TypeScript and Tailwind added half way through). I decided to include It here, as It shows my progress in terms of programming in general and the ability to use the knowledge acquired from other projects.`}</p>
+                                    <h4 className="text-xl font-medium mt-4">Terminal Copilot</h4>
+                                    <p className="text-sm text-muted-foreground">TypeScript, NodeJS, Bash</p>
+                                    <p className="mt-6">{`Terminal autocompiltion using Github Copilot. Avalible for free to everyone with Github Copilot subscription. With this tool, you will never again have to google meaning of every tar flag. Automatic installer avalible on repo.`}</p>
                                 </div>
-                                <div className="flex gap-4 items-center justify-start mt-10">
+                                <div className="flex gap-4 items-center justify-start mt-8">
                                     <Button >
                                         <Link href={'https://github.com/xDepcio/boss-monster-ts'} className="flex items-center justify-center gap-2">
                                             <p>See code</p>
