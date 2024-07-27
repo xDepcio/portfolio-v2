@@ -206,7 +206,7 @@ export default function CvPage() {
                                 <div>
                                     <h4 className="text-xl font-medium mt-4">Boss Monsters Tabletop</h4>
                                     <p className="text-sm text-muted-foreground">React, TypeScript, NodeJS, TailwindCSS, Socket.IO, Express</p>
-                                    <p className="mt-6">Recreation of Boss Monsters - a tabletop RPG, as a multiplayer game on the web. It's one of my older projects, which underwent few cycles of sudden gain and lost of interest in it. (thus TypeScript and Tailwind added half way through). I decided to include It here, as It shows my progress in terms of programming in general and the ability to use the knowledge acquired from other projects.</p>
+                                    <p className="mt-6">{`Recreation of Boss Monsters - a tabletop RPG, as a multiplayer game on the web. It's one of my older projects, which underwent few cycles of sudden gain and lost of interest in it. (thus TypeScript and Tailwind added half way through). I decided to include It here, as It shows my progress in terms of programming in general and the ability to use the knowledge acquired from other projects.`}</p>
                                 </div>
                                 <div className="flex gap-4 items-center justify-start mt-10">
                                     <Button >
