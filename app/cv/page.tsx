@@ -12,7 +12,7 @@ import Link from "next/link";
 export default function CvPage() {
     return (
         <div className="">
-            <div className="w-[1152px] m-auto relative">
+            <div className="max-w-[1152px] m-auto relative">
                 <div className="absolute w-full h-[700px] -z-10 top-[460px] opacity-30" style={{ backgroundImage: `url(/hero-geo.svg)` }}>
                     <div className="innger-bg-geo "></div>
                 </div>
@@ -44,7 +44,7 @@ export default function CvPage() {
                         </div>
                     </div>
                 </section>
-                <section className="grid grid-cols-2 gap-24">
+                <section className="grid grid-cols-2 gap-12 px-4">
                     <div className="text-slate-50 bg-slate-950">
                         <p className="text-amber-500 mb-6 text-xs text-center font-bold">Work experience</p>
                         <div className="border border-slate-900 rounded-lg p-4 flex flex-col gap-10">
@@ -161,7 +161,7 @@ export default function CvPage() {
                         </div>
                     </div>
                 </section>
-                <section className="text-slate-100 mt-14">
+                <section className="text-slate-100 mt-14 px-4">
                     <div className="flex items-center justify-start gap-2 text-muted-foreground font-medium">
                         <h3 className="">Recent projects</h3>
                         <HiChevronDown />
