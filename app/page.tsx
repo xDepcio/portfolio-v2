@@ -84,7 +84,8 @@ export default function CvPage() {
                                 <HiChevronDown />
                             </div>
                             <h2 className="mt-4 text-3xl font-medium mb-4">Short bio about me</h2>
-                            <p className="">I study 2nd year of computer science. In my free time and in between exams I code for fun, mostly in TypeScript. I like working in new projects with technologies I never used before and am always keen to learn new language/framework.</p>
+                            <p className="">Passionate Computer Science student with a strong interest in software development, devops and UI/UX design. Coding is fun! I spend many hours creating new open-source side projects and learning never-ending new technologies. Most of my projects are self-hosted on personal server running Ubuntu Server 24. In my free time I climb and do rugs 😎.
+                            </p>
                         </div>
                         <div className="grid grid-cols-2 mt-4 lg:mt-0 sm:flex sm:items-center sm:justify-start gap-4">
                             <Button>
