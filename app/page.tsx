@@ -29,14 +29,20 @@ export default function CvPage() {
                     <div>
                         <p className="text-lg text-muted-foreground font-medium">{`Hi! I'm`}</p>
                         <h1 className={cn(ProximaSoft.className, "text-6xl lg:text-7xl lg:whitespace-nowrap font-bold bg-gradient-to-br from-sky-500 to-sky-800  text-transparent bg-clip-text")}>Aleksander Drwal</h1>
-                        <div className="flex items-start mt-6 gap-10">
+                        <div className="flex items-start mt-6 gap-10 justify-between">
                             <div className="text-slate-100 flex items-center justify-center gap-3">
-                                <Image src={"/code-svg.svg"} width={40} height={40} alt={'web-svg'} />
-                                <p className="font-semibold text-muted-foreground ">Web developer</p>
+                                <Image src={"/university.svg"} width={45} height={45} alt={'web-svg'} />
+                                <div className="flex flex-col gap-1">
+                                    <p className="">Computer science student</p>
+                                    <p className="text-muted-foreground text-sm">Warsaw Univeristy of Technology</p>
+                                </div>
                             </div>
                             <div className="text-slate-100 flex items-center justify-center gap-3">
-                                <Image src={"/university.svg"} width={40} height={40} alt={'web-svg'} />
-                                <p className="font-semibold text-muted-foreground">Comp-sci student</p>
+                                <Image src={"/code-svg.svg"} width={45} height={45} alt={'web-svg'} />
+                                <div className="flex flex-col gap-1 text-nowrap">
+                                    <p className="">Software developer</p>
+                                    <p className="text-muted-foreground text-sm">Full stack</p>
+                                </div>
                             </div>
                         </div>
                     </div>
