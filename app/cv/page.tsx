@@ -16,7 +16,7 @@ export default function CvPage() {
                 <div className="absolute w-full h-[700px] -z-10 top-[460px] opacity-30" style={{ backgroundImage: `url(/hero-geo.svg)` }}>
                     <div className="innger-bg-geo "></div>
                 </div>
-                <section className="flex justify-center items-center mb-20 gap-8 mt-12">
+                <section className="flex justify-center items-center mb-16 gap-8 mt-8">
                     {/* <div className="flex justify-center items-center relative">
                         <div className="w-[1200px] h-[600px] scale-[0.6] -left-[230px] -top-[60px] absolute" style={{ backgroundImage: `url(/test-2.svg)` }}>
 
@@ -44,7 +44,7 @@ export default function CvPage() {
                         </div>
                     </div>
                 </section>
-                <section className="grid grid-cols-2 gap-12 px-4">
+                <section className="grid grid-cols-2 gap-12 px-6">
                     <div className="text-slate-50 bg-slate-950">
                         <p className="text-amber-500 mb-6 text-xs text-center font-bold">Work experience</p>
                         <div className="border border-slate-900 rounded-lg p-4 flex flex-col gap-10">
@@ -100,7 +100,7 @@ export default function CvPage() {
                         </div>
                     </div>
                 </section>
-                <section className="text-slate-100 mt-20">
+                <section className="text-slate-100 mt-16">
                     <h3 className="text-center font-medium text-muted-foreground">Skills and technology</h3>
                     <div className="flex gap-11 px-6 py-10 flex-wrap justify-center items-center">
                         <div className="bg-[#090F20] rounded-full w-24 aspect-square flex justify-center flex-col items-center gap-2 shadow-md">
@@ -161,7 +161,7 @@ export default function CvPage() {
                         </div>
                     </div>
                 </section>
-                <section className="text-slate-100 mt-14 px-4">
+                <section className="text-slate-100 mt-12 px-6">
                     <div className="flex items-center justify-start gap-2 text-muted-foreground font-medium">
                         <h3 className="">Recent projects</h3>
                         <HiChevronDown />
@@ -220,7 +220,7 @@ export default function CvPage() {
                         </div>
                     </div>
                 </section>
-                <section className="text-slate-100 mt-24 mb-64">
+                <section className="text-slate-100 mt-12 mb-64">
                     <p className="text-muted-foreground text-sm text-center">CV designed and created in React by me :). View code <Link href={'https://github.com/xDepcio/cv-react-to-pdf'} className="underline inline">here</Link>.</p>
                 </section>
             </div>
