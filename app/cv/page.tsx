@@ -93,7 +93,7 @@ export default function CvPage() {
                             </Button>
                             <Button>
                                 <a href="mailto:olek.drwal@gmail.com" className="flex items-center justify-center gap-2">
-                                    <p>Contact me</p>
+                                    <p>olek.drwal@gmail.com</p>
                                     <FiMail className='text-2xl' />
                                 </a>
                             </Button>
