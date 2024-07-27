@@ -33,14 +33,14 @@ export default function CvPage() {
                             <div className="text-slate-100 flex items-center justify-center gap-3">
                                 <Image src={"/university.svg"} width={45} height={45} alt={'web-svg'} />
                                 <div className="flex flex-col gap-1">
-                                    <p className="">Computer science student</p>
+                                    <p className="">Computer Science student</p>
                                     <p className="text-muted-foreground text-sm">Warsaw Univeristy of Technology</p>
                                 </div>
                             </div>
                             <div className="text-slate-100 flex items-center justify-center gap-3">
                                 <Image src={"/code-svg.svg"} width={45} height={45} alt={'web-svg'} />
                                 <div className="flex flex-col gap-1 text-nowrap">
-                                    <p className="">Software developer</p>
+                                    <p className="">Software Developer</p>
                                     <p className="text-muted-foreground text-sm">Full stack</p>
                                 </div>
                             </div>
@@ -49,7 +49,7 @@ export default function CvPage() {
                 </section>
                 <section className="lg:grid flex flex-col-reverse lg:grid-cols-2 lg:gap-24 gap-16">
                     <div className="text-slate-50">
-                        <p className="text-amber-500 mb-6 text-xs text-center font-bold">education</p>
+                        <p className="text-amber-500 mb-6 text-xs text-center font-bold">Work experience</p>
                         <div className="border border-slate-900 rounded-lg p-4 flex flex-col gap-10">
                             <div className="grid grid-cols-[20%_80%]">
                                 <div className="relative">
@@ -57,9 +57,10 @@ export default function CvPage() {
                                     <div className="absolute w-1 h-20 rounded-full bg-slate-300 left-1/2 top-full -translate-x-1/2 -translate-y-1/2"></div>
                                 </div>
                                 <div>
-                                    <p className="mb-2">Computer science</p>
-                                    <p className="text-sm font-medium text-muted-foreground">Warsaw Univeristy of Technology</p>
-                                    <p className="text-xs text-muted-foreground font-medium">2022 - now</p>
+                                    <p className="mb-2">Frontend Developer</p>
+                                    <p className="text-sm font-medium text-muted-foreground">Havrium</p>
+                                    <p className="text-xs text-muted-foreground font-medium">2024 - 2024</p>
+                                    <p className="mt-2">Designing UI/UX. Implementing UIs in React.</p>
                                 </div>
                             </div>
                             <div className="grid grid-cols-[20%_80%]">
@@ -68,9 +69,10 @@ export default function CvPage() {
                                     <div className="absolute w-1 h-20 rounded-full bg-slate-300 left-1/2 bottom-full -translate-x-1/2 translate-y-1/2"></div>
                                 </div>
                                 <div>
-                                    <p className="mb-2">Math/Physics</p>
-                                    <p className="text-sm font-medium text-muted-foreground">High School. I LO. Giżycko</p>
-                                    <p className="text-xs text-muted-foreground font-medium">2019 - 2022</p>
+                                    <p className="mb-2">Software Developer</p>
+                                    <p className="text-sm font-medium text-muted-foreground">IT Solutions RDNK</p>
+                                    <p className="text-xs text-muted-foreground font-medium">2023 - 2024</p>
+                                    <p className="mt-2">Creating automation tools for e-commerce.</p>
                                 </div>
                             </div>
                         </div>
