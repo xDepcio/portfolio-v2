@@ -102,62 +102,62 @@ export default function CvPage() {
                 </section>
                 <section className="text-slate-100 mt-20">
                     <h3 className="text-center font-medium text-muted-foreground">Skills and technology</h3>
-                    <div className="flex gap-12 px-10 py-10 flex-wrap justify-center items-center">
-                        <div className="bg-[#090F20] rounded-full w-28 aspect-square flex justify-center flex-col items-center gap-2 shadow-md">
+                    <div className="flex gap-11 px-6 py-10 flex-wrap justify-center items-center">
+                        <div className="bg-[#090F20] rounded-full w-24 aspect-square flex justify-center flex-col items-center gap-2 shadow-md">
                             <p className="font-medium text-muted-foreground text-xs">TypeScript</p>
                             <Image src={'/typescript.svg'} alt="skill image" width={40} height={40} />
                         </div>
-                        <div className="bg-[#090F20] rounded-full w-28 aspect-square flex justify-center flex-col items-center gap-2 shadow-md">
+                        <div className="bg-[#090F20] rounded-full w-24 aspect-square flex justify-center flex-col items-center gap-2 shadow-md">
                             <p className="font-medium text-muted-foreground text-xs">Python</p>
-                            <Image src={'/python.svg'} alt="skill image" width={45} height={45} />
+                            <Image src={'/python.svg'} alt="skill image" width={40} height={40} />
                         </div>
-                        <div className="bg-[#090F20] rounded-full w-28 aspect-square flex justify-center flex-col items-center gap-2 shadow-md">
+                        <div className="bg-[#090F20] rounded-full w-24 aspect-square flex justify-center flex-col items-center gap-2 shadow-md">
                             <p className="font-medium text-muted-foreground text-xs">C++</p>
                             <Image src={'/c++.svg'} alt="skill image" width={40} height={40} />
                         </div>
-                        <div className="bg-[#090F20] rounded-full w-28 aspect-square flex justify-center flex-col items-center gap-2 shadow-md">
+                        <div className="bg-[#090F20] rounded-full w-24 aspect-square flex justify-center flex-col items-center gap-2 shadow-md">
                             <p className="font-medium text-muted-foreground text-xs">NodeJS</p>
-                            <Image src={'/node.svg'} alt="skill image" width={45} height={45} />
+                            <Image src={'/node.svg'} alt="skill image" width={40} height={40} />
                         </div>
-                        <div className="bg-[#090F20] rounded-full w-28 aspect-square flex justify-center flex-col items-center gap-2 shadow-md">
+                        <div className="bg-[#090F20] rounded-full w-24 aspect-square flex justify-center flex-col items-center gap-2 shadow-md">
                             <p className="font-medium text-muted-foreground text-xs">React</p>
-                            <Image src={'/react.svg'} alt="skill image" width={45} height={45} />
+                            <Image src={'/react.svg'} alt="skill image" width={40} height={40} />
                         </div>
-                        <div className="bg-[#090F20] rounded-full w-28 aspect-square flex justify-center flex-col items-center gap-2 shadow-md">
+                        <div className="bg-[#090F20] rounded-full w-24 aspect-square flex justify-center flex-col items-center gap-2 shadow-md">
                             <p className="font-medium text-muted-foreground text-xs">Express</p>
-                            <Image src={'/expressjs.svg'} alt="skill image" width={45} height={45} />
+                            <Image src={'/expressjs.svg'} alt="skill image" width={40} height={40} />
                         </div>
-                        <div className="bg-[#090F20] rounded-full w-28 aspect-square flex justify-center flex-col items-center gap-2 shadow-md">
+                        <div className="bg-[#090F20] rounded-full w-24 aspect-square flex justify-center flex-col items-center gap-2 shadow-md">
                             <p className="font-medium text-muted-foreground text-xs">Sequelize</p>
-                            <Image src={'/sequelize.svg'} alt="skill image" width={45} height={45} />
+                            <Image src={'/sequelize.svg'} alt="skill image" width={40} height={40} />
                         </div>
-                        <div className="bg-[#090F20] rounded-full w-28 aspect-square flex justify-center flex-col items-center gap-2 shadow-md">
+                        <div className="bg-[#090F20] rounded-full w-24 aspect-square flex justify-center flex-col items-center gap-2 shadow-md">
                             <p className="font-medium text-muted-foreground text-xs">Next.js</p>
-                            <Image src={'/nextjs.svg'} alt="skill image" width={45} height={45} />
+                            <Image src={'/nextjs.svg'} alt="skill image" width={40} height={40} />
                         </div>
-                        <div className="bg-[#090F20] rounded-full w-28 aspect-square flex justify-center flex-col items-center gap-2 shadow-md">
+                        <div className="bg-[#090F20] rounded-full w-24 aspect-square flex justify-center flex-col items-center gap-2 shadow-md">
                             <p className="font-medium text-muted-foreground text-xs">SQL</p>
-                            <Image src={'/sql.svg'} alt="skill image" width={45} height={45} />
+                            <Image src={'/sql.svg'} alt="skill image" width={40} height={40} />
                         </div>
-                        <div className="bg-[#090F20] rounded-full w-28 aspect-square flex justify-center flex-col items-center gap-2 shadow-md">
+                        <div className="bg-[#090F20] rounded-full w-24 aspect-square flex justify-center flex-col items-center gap-2 shadow-md">
                             <p className="font-medium text-muted-foreground text-xs">Tailwind</p>
-                            <Image src={'/tailwind.svg'} alt="skill image" width={45} height={45} />
+                            <Image src={'/tailwind.svg'} alt="skill image" width={40} height={40} />
                         </div>
-                        <div className="bg-[#090F20] rounded-full w-28 aspect-square flex justify-center flex-col items-center gap-2 shadow-md">
+                        <div className="bg-[#090F20] rounded-full w-24 aspect-square flex justify-center flex-col items-center gap-2 shadow-md">
                             <p className="font-medium text-muted-foreground text-xs">Docker</p>
-                            <Image src={'/docker.svg'} alt="skill image" width={45} height={45} />
+                            <Image src={'/docker.svg'} alt="skill image" width={40} height={40} />
                         </div>
-                        <div className="bg-[#090F20] rounded-full w-28 aspect-square flex justify-center flex-col items-center gap-2 shadow-md">
+                        <div className="bg-[#090F20] rounded-full w-24 aspect-square flex justify-center flex-col items-center gap-2 shadow-md">
                             <p className="font-medium text-muted-foreground text-xs">Linux</p>
-                            <Image src={'/ubuntu.svg'} alt="skill image" width={45} height={45} />
+                            <Image src={'/ubuntu.svg'} alt="skill image" width={40} height={40} />
                         </div>
-                        <div className="bg-[#090F20] rounded-full w-28 aspect-square flex justify-center flex-col items-center gap-2 shadow-md">
+                        <div className="bg-[#090F20] rounded-full w-24 aspect-square flex justify-center flex-col items-center gap-2 shadow-md">
                             <p className="font-medium text-muted-foreground text-xs">Postgres</p>
-                            <Image src={'/postgres.svg'} alt="skill image" width={45} height={45} />
+                            <Image src={'/postgres.svg'} alt="skill image" width={40} height={40} />
                         </div>
-                        <div className="bg-[#090F20] rounded-full w-28 aspect-square flex justify-center flex-col items-center gap-2 shadow-md">
+                        <div className="bg-[#090F20] rounded-full w-24 aspect-square flex justify-center flex-col items-center gap-2 shadow-md">
                             <p className="font-medium text-muted-foreground text-xs">Nginx</p>
-                            <Image src={'/nginx.svg'} alt="skill image" width={45} height={45} />
+                            <Image src={'/nginx.svg'} alt="skill image" width={40} height={40} />
                         </div>
                     </div>
                 </section>

@@ -13,7 +13,7 @@ fetch('https://api.pdfshift.io/v3/convert/pdf', {
         landscape: false,
         use_print: false,
         sandbox: true,
-        format: `A4`,
+        format: `273mmx386mm`,
     })
 }).then(response => {
     response.body!.pipe(fs.createWriteStream('cv.pdf'))
