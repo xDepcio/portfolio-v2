@@ -12,9 +12,9 @@ fetch('https://api.pdfshift.io/v3/convert/pdf', {
         source: 'https://www.adrwal.pl/cv',
         landscape: false,
         use_print: false,
-        sandbox: true,
+        sandbox: false,
         format: `273mmx386mm`,
     })
 }).then(response => {
-    response.body!.pipe(fs.createWriteStream('cv.pdf'))
+    response.body!.pipe(fs.createWriteStream('Alekasnder-Drwal-CV.pdf'))
 })
