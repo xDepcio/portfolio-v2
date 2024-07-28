@@ -176,7 +176,7 @@ export default function CvPage() {
                                         </Link>
                                     </Button>
                                     <Button >
-                                        <Link href={'https://strapup.vercel.app/'} className="flex items-center justify-center gap-2">
+                                        <Link href={'https://strapup.adrwal.pl/'} className="flex items-center justify-center gap-2">
                                             <p>View deployment</p>
                                             <EyeIcon />
                                         </Link>
@@ -193,7 +193,7 @@ export default function CvPage() {
                                 </div>
                                 <div className="flex gap-4 items-center justify-start mt-8">
                                     <Button >
-                                        <Link href={'https://github.com/xDepcio/boss-monster-ts'} className="flex items-center justify-center gap-2">
+                                        <Link href={'https://github.com/xDepcio/ai-cli'} className="flex items-center justify-center gap-2">
                                             <p>See code</p>
                                             <Code2 />
                                         </Link>
@@ -203,8 +203,8 @@ export default function CvPage() {
                         </div>
                     </div>
                 </section>
-                <section className="text-slate-100 mt-12 mb-64">
-                    <p className="text-muted-foreground text-sm text-center">CV designed and created in React by me :). View code <Link href={'https://github.com/xDepcio/cv-react-to-pdf'} className="underline inline">here</Link>.</p>
+                <section className="text-slate-100 mt-12">
+                    <p className="text-muted-foreground text-sm text-center">CV designed and created in React by me :). View code <Link href={'https://github.com/xDepcio/portfolio-v2'} className="underline inline">here</Link>.</p>
                 </section>
             </div>
         </div>
