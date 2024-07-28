@@ -38,7 +38,7 @@ export default function CvPage() {
                         </div>
                     </div>
                 </section>
-                <section className="grid grid-cols-2 gap-12 px-6">
+                <section className="grid grid-cols-2 gap-12 px-10">
                     <div className="text-slate-50 bg-slate-950">
                         <p className="text-amber-500 mb-6 text-xs text-center font-bold">Work experience</p>
                         <div className="border border-slate-900 rounded-lg p-4 flex flex-col gap-10">
@@ -155,7 +155,7 @@ export default function CvPage() {
                         </div>
                     </div>
                 </section>
-                <section className="text-slate-100 mt-12 px-6">
+                <section className="text-slate-100 mt-12 px-10">
                     <div className="flex items-center justify-start gap-2 text-muted-foreground font-medium">
                         <h3 className="">Recent projects</h3>
                         <HiChevronDown />
