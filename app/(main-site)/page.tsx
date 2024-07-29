@@ -15,8 +15,8 @@ import { PiDownloadSimpleBold } from "react-icons/pi";
 export default function CvPage() {
     return (
         <div className="">
-            <div className="p-6 lg:p-0 lg:w-[1152px] m-auto relative">
-                <div className="top-[880px] [background-size:250%] h-[1400px] absolute w-full md:h-[1070px] lg:h-[700px] sm:h-[1500px] sm:top-[700px] left-0 sm:[background-size:200%] md:[background-size:100%] -z-10 md:top-[770px] lg:top-[600px] opacity-30" style={{ backgroundImage: `url(/hero-geo.svg)` }}>
+            <div className="p-6 lg:p-0 lg:max-w-[1152px] m-auto relative">
+                <div className="top-[1100px] [background-size:250%] h-[1400px] absolute w-full md:h-[1070px] lg:h-[700px] sm:h-[1500px] sm:top-[700px] left-0 sm:[background-size:200%] md:[background-size:100%] -z-10 md:top-[770px] lg:top-[600px] opacity-30" style={{ backgroundImage: `url(/hero-geo.svg)` }}>
                     <div className="innger-bg-geo "></div>
                 </div>
                 <section className="flex-col lg:flex-row flex justify-center items-center mb-12 gap-8 mt-12">
@@ -29,7 +29,7 @@ export default function CvPage() {
                     <div>
                         <p className="text-lg text-muted-foreground font-medium">{`Hi! I'm`}</p>
                         <h1 className={cn(ProximaSoft.className, "text-6xl lg:text-7xl lg:whitespace-nowrap font-bold bg-gradient-to-br from-sky-500 to-sky-800  text-transparent bg-clip-text")}>Aleksander Drwal</h1>
-                        <div className="flex items-start mt-6 gap-10 justify-between">
+                        <div className="flex items-start mt-6 gap-10 justify-between flex-col sm:flex-row">
                             <div className="text-slate-100 flex items-center justify-center gap-3">
                                 <Image src={"/university.svg"} width={45} height={45} alt={'web-svg'} />
                                 <div className="flex flex-col gap-1">
