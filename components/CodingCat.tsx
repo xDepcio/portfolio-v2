@@ -184,7 +184,7 @@ export default function CodingCat() {
                 </g>
                 <g className="table">
                     <polygon points="25.3 158.5 783.2 293 513 354.9 25.3 158.5"></polygon>
-                    <line x1="25.3" y1="158.5" x2="783.2" y2="293" fill="none" stroke="#8d00fc" stroke-miterlimit="10" stroke-width="4"></line>
+                    <line x1="25.3" y1="158.5" x2="783.2" y2="293" fill="none" stroke="#8d00fc" strokeWidth={'4'} strokeMiterlimit={'10'}></line>
                     <line x1="783.2" y1="293" x2="25.3" y2="158.5" fill="none"></line>
                 </g>
                 {/* <polygon className="laptop-base" points="103.2 263.6 258.9 219.3 636.5 294.4 452.1 339 103.2 263.6"></polygon> */}
