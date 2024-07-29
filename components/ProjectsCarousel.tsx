@@ -37,8 +37,8 @@ export function ProjectsCarousel({ projects = [] }: { projects: Project[] }) {
                     </CarouselItem>
                 ))}
             </CarouselContent>
-            <CarouselPrevious className="invisible lg:visible" />
-            <CarouselNext className="invisible lg:visible" />
+            <CarouselPrevious className="hidden lg:inline-flex" />
+            <CarouselNext className="hidden lg:inline-flex" />
         </Carousel>
     )
 }
