@@ -4,7 +4,7 @@ import { ProjectsCarousel } from "@/components/ProjectsCarousel";
 import { Button } from "@/components/ui/button";
 import { ProximaSoft } from "@/lib/fonts";
 import { cn } from "@/lib/utils";
-import { Code2, EyeIcon, Github } from "lucide-react";
+import { Code2, EyeIcon, Github, Download, ExternalLink } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { FiMail } from "react-icons/fi";
@@ -191,7 +191,38 @@ export default function CvPage() {
                             <div className="bg-slate-300 w-2 aspect-square rounded-full"></div>
                             <div className="bg-slate-300 w-2 aspect-square rounded-full"></div>
                         </div>
-                        <div className="items-center lg:items-start flex-col flex gap-10 lg:flex-row-reverse">
+                        <div className="lg:flex-row-reverse items-center lg:items-start flex-col flex gap-10">
+                            <Image alt="project-1-image" src={"/ai-cli-screen-3.png"} width={500} height={500}
+                                className="shadow-md rounded-lg"
+                            />
+                            <div className="">
+                                <div>
+                                    <h4 className="text-xl font-medium mt-4">Terminal Copilot</h4>
+                                    <p className="text-sm text-muted-foreground">TypeScript, NodeJS, Bash</p>
+                                    <p className="mt-6">{`Terminal autocompiltion using Github Copilot. Avalible for free to everyone with Github Copilot subscription. With this tool, you will never again have to google meaning of every tar flag. Automatic installer avalible on repo.`}</p>
+                                </div>
+                                <div className="flex gap-4 items-center justify-start mt-10">
+                                    <Button >
+                                        <Link href={'https://github.com/xDepcio/terminal-copilot-autocomplition'} className="flex items-center justify-center gap-2">
+                                            <p>See code</p>
+                                            <Code2 />
+                                        </Link>
+                                    </Button>
+                                    <Button >
+                                        <Link href={'https://github.com/xDepcio/terminal-copilot-autocomplition#installation'} className="flex items-center justify-center gap-2">
+                                            <p>Start using</p>
+                                            <ExternalLink />
+                                        </Link>
+                                    </Button>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="flex items-center justify-center gap-4">
+                            <div className="bg-slate-300 w-2 aspect-square rounded-full"></div>
+                            <div className="bg-slate-300 w-2 aspect-square rounded-full"></div>
+                            <div className="bg-slate-300 w-2 aspect-square rounded-full"></div>
+                        </div>
+                        <div className="items-center lg:items-start flex-col flex gap-10 lg:flex-row">
                             <Image alt="project-1-image" src={"/boss-monster.webp"} width={500} height={500}
                                 className="shadow-md rounded-lg border-y-[20px] border-red-950/40"
                             />
