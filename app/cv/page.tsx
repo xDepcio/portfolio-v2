@@ -205,6 +205,7 @@ export default function CvPage() {
                 </section>
                 <section className="text-slate-100 mt-12">
                     <p className="text-muted-foreground text-sm text-center">CV designed and created in React by me :). View code <Link href={'https://github.com/xDepcio/portfolio-v2'} className="underline inline">here</Link>.</p>
+                    <p className="text-muted-foreground text-sm text-center">{`My website -> `}<Link href={'https://adrwal.pl/'} className="underline inline">adrwal.pl</Link>.</p>
                 </section>
             </div>
         </div>
