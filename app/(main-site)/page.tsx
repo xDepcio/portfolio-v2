@@ -178,8 +178,8 @@ export default function CvPage() {
                                         </Link>
                                     </Button>
                                     <Button >
-                                        <Link href={'https://strapup.vercel.app/'} className="flex items-center justify-center gap-2">
-                                            <p>View deployment</p>
+                                        <Link href={'https://strapup.adrwal.pl/'} className="flex items-center justify-center gap-2">
+                                            <p>View</p>
                                             <EyeIcon />
                                         </Link>
                                     </Button>
@@ -237,6 +237,12 @@ export default function CvPage() {
                                         <Link href={'https://github.com/xDepcio/boss-monster-ts'} className="flex items-center justify-center gap-2">
                                             <p>See code</p>
                                             <Code2 />
+                                        </Link>
+                                    </Button>
+                                    <Button >
+                                        <Link href={'https://boss-monster.adrwal.pl/'} className="flex items-center justify-center gap-2">
+                                            <p>View</p>
+                                            <EyeIcon />
                                         </Link>
                                     </Button>
                                 </div>
