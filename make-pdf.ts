@@ -3,11 +3,16 @@ import * as fs from 'fs'
 global.btoa = (b) => Buffer.from(b).toString('base64')
 
 if (process.argv.length < 3) {
-    console.error('Provide first argument whether to use sandbox or not (t, f)')
+    console.error(`Arguments:
+        $1: use sandbox <t, f>
+        $2: input url <e.g. https://adrwal.pl/cv>
+        $3: output file <e.g. cv.pdf>`)
     process.exit(1)
 }
 
 const sandbox = process.argv[2] === 't'
+const url = process.argv[3]
+const output = process.argv[4]
 
 fetch('https://api.pdfshift.io/v3/convert/pdf', {
     method: 'POST',
@@ -16,12 +21,12 @@ fetch('https://api.pdfshift.io/v3/convert/pdf', {
         'Content-type': 'application/json'
     },
     body: JSON.stringify({
-        source: 'https://www.adrwal.pl/cv',
+        source: url,
         landscape: false,
         use_print: false,
         sandbox: sandbox,
         format: `273mmx386mm`,
     })
 }).then(response => {
-    response.body!.pipe(fs.createWriteStream('Alekasnder-Drwal-CV.pdf'))
+    response.body!.pipe(fs.createWriteStream(output))
 })
