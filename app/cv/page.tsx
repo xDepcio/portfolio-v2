@@ -118,28 +118,12 @@ export default function CvPage() {
                             <Image src={'/react.svg'} alt="skill image" width={40} height={40} />
                         </div>
                         <div className="bg-[#090F20] rounded-full w-24 aspect-square flex justify-center flex-col items-center gap-2 shadow-md">
-                            <p className="font-medium text-muted-foreground text-xs">Express</p>
-                            <Image src={'/expressjs.svg'} alt="skill image" width={40} height={40} />
-                        </div>
-                        <div className="bg-[#090F20] rounded-full w-24 aspect-square flex justify-center flex-col items-center gap-2 shadow-md">
-                            <p className="font-medium text-muted-foreground text-xs">Sequelize</p>
-                            <Image src={'/sequelize.svg'} alt="skill image" width={40} height={40} />
-                        </div>
-                        <div className="bg-[#090F20] rounded-full w-24 aspect-square flex justify-center flex-col items-center gap-2 shadow-md">
-                            <p className="font-medium text-muted-foreground text-xs">Next.js</p>
-                            <Image src={'/nextjs.svg'} alt="skill image" width={40} height={40} />
-                        </div>
-                        <div className="bg-[#090F20] rounded-full w-24 aspect-square flex justify-center flex-col items-center gap-2 shadow-md">
-                            <p className="font-medium text-muted-foreground text-xs">SQL</p>
-                            <Image src={'/sql.svg'} alt="skill image" width={40} height={40} />
-                        </div>
-                        <div className="bg-[#090F20] rounded-full w-24 aspect-square flex justify-center flex-col items-center gap-2 shadow-md">
-                            <p className="font-medium text-muted-foreground text-xs">Tailwind</p>
-                            <Image src={'/tailwind.svg'} alt="skill image" width={40} height={40} />
-                        </div>
-                        <div className="bg-[#090F20] rounded-full w-24 aspect-square flex justify-center flex-col items-center gap-2 shadow-md">
                             <p className="font-medium text-muted-foreground text-xs">Docker</p>
                             <Image src={'/docker.svg'} alt="skill image" width={40} height={40} />
+                        </div>
+                        <div className="bg-[#090F20] rounded-full w-24 aspect-square flex justify-center flex-col items-center gap-2 shadow-md">
+                            <p className="font-medium text-muted-foreground text-xs">Bash</p>
+                            <Image src={'/bash.svg'} alt="skill image" width={40} height={40} />
                         </div>
                         <div className="bg-[#090F20] rounded-full w-24 aspect-square flex justify-center flex-col items-center gap-2 shadow-md">
                             <p className="font-medium text-muted-foreground text-xs">Linux</p>
@@ -152,6 +136,22 @@ export default function CvPage() {
                         <div className="bg-[#090F20] rounded-full w-24 aspect-square flex justify-center flex-col items-center gap-2 shadow-md">
                             <p className="font-medium text-muted-foreground text-xs">Nginx</p>
                             <Image src={'/nginx.svg'} alt="skill image" width={40} height={40} />
+                        </div>
+                        <div className="bg-[#090F20] rounded-full w-24 aspect-square flex justify-center flex-col items-center gap-2 shadow-md">
+                            <p className="font-medium text-muted-foreground text-xs">Express</p>
+                            <Image src={'/expressjs.svg'} alt="skill image" width={40} height={40} />
+                        </div>
+                        <div className="bg-[#090F20] rounded-full w-24 aspect-square flex justify-center flex-col items-center gap-2 shadow-md">
+                            <p className="font-medium text-muted-foreground text-xs">Sequelize</p>
+                            <Image src={'/sequelize.svg'} alt="skill image" width={40} height={40} />
+                        </div>
+                        <div className="bg-[#090F20] rounded-full w-24 aspect-square flex justify-center flex-col items-center gap-2 shadow-md">
+                            <p className="font-medium text-muted-foreground text-xs">Next.js</p>
+                            <Image src={'/nextjs.svg'} alt="skill image" width={40} height={40} />
+                        </div>
+                        <div className="bg-[#090F20] rounded-full w-24 aspect-square flex justify-center flex-col items-center gap-2 shadow-md">
+                            <p className="font-medium text-muted-foreground text-xs">Tailwind</p>
+                            <Image src={'/tailwind.svg'} alt="skill image" width={40} height={40} />
                         </div>
                     </div>
                 </section>
