@@ -101,7 +101,7 @@ export default function CvPage() {
                                 </a>
                             </Button>
                             <Button className="ml-0 sm:ml-auto bg-transparent border-2 border-slate-900 text-muted-foreground">
-                                <Link href={'https://raw.githubusercontent.com/xDepcio/portfolio-v2/main/Alekasnder-Drwal-CV.pdf'} className="flex items-center justify-center gap-2">
+                                <Link href={'https://raw.githubusercontent.com/xDepcio/portfolio-v2/main/Aleksander-Drwal-CV.pdf'} className="flex items-center justify-center gap-2">
                                     <p>Download CV</p>
                                     <PiDownloadSimpleBold />
                                 </Link>
